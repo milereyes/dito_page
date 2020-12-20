@@ -1,0 +1,112 @@
+body{
+	overscroll-behavior: none;
+	font-family: 'Montserrat', sans-serif;	
+}
+
+.navColor {
+	background-color: #eeeeee;
+  }
+
+.navbar-light .navbar-nav .nav-link{
+	color:#b70017;
+	font-weight: 700;
+}
+
+.logo{
+	width: 70%;
+    height: auto;
+}
+.llamado{
+	display: flex; 
+	align-self: center;
+}
+
+.llamado h1{
+	font-weight: 700;
+}
+
+.cardForm{
+	border-radius: 20px;
+}
+
+.box__info{
+	padding: 50px 0;
+}
+.nosotros{
+	margin: 5% 12%;
+}
+
+.nosotros h2{
+	margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.img_banner{
+	width: 100%;
+}
+
+.sectionForm{
+	background-image: url("/images/formacion.jpg");
+	background-size: cover;
+	padding: 5% 0;
+}
+
+.card-img-top{
+	width: 200px;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.card-img-top__second{
+	width: 100%;
+    height:180px;
+    margin: 0 auto;
+}
+
+.card-title {
+    margin-bottom: .75rem;
+    text-align: center;
+    font-weight: 800;
+	line-height: 0.8;
+}
+
+.boton__detalle{
+	font-weight: 500;
+	width:250px;
+}
+
+.botones{
+	margin:0 auto;
+}
+.boton__pdf{
+	font-weight: 500;
+	width:250px;
+	background-color: #FFB400;
+	border-color:  #FFB400;
+}
+.first{
+	margin-bottom: 42px;
+}
+
+.textos_completos{
+	padding: 50px;
+}
+footer{
+	background-color: #eeeeee;
+	text-align: center;
+}
+
+@media (max-width: 992px) { 
+	.navbar-brand{
+		display: contents;	
+	}
+	
+	.logo{
+		width: 40%;
+	}						   
+}
+
+						   
+						    
+
